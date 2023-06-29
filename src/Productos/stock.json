@@ -1,0 +1,34 @@
+[{
+    "producto": "Camiseta titular",
+    "precio": "$11000",
+    "descripcion": "Camiseta Givova Titular azul y blanca",
+  "imagen": ""
+    }, {
+    "producto": "Camiseta Suplete ",
+    "precio": "$10000",
+    "descripcion": "Camiseta sumplente marca Givova edicion multicolor con sponsors estampados"
+  }, {
+    "producto": "Camiseta Arquero ",
+    "precio": "$11000",
+    "descripcion": "Camiseta Arquero titular marca Givova con sponsors estampados"
+  }, {
+    "producto": "Short Titular ",
+    "precio": "$6000",
+    "descripcion": "Short Titular Givova "
+  }, {
+    "producto": "Short Arquero",
+    "precio": "$6000",
+    "descripcion": "Scholtis"
+  }, {
+    "producto": "Remera Casual",
+    "precio": "$4500",
+    "descripcion": "Antrim"
+  }, {
+    "producto": "Joggin Givova",
+    "precio": "$8500",
+    "descripcion": "Nesterov"
+  }, {
+    "producto": "Vaso Termico",
+    "precio": "$2000",
+    "descripcion": "Schapiro"
+  } ]

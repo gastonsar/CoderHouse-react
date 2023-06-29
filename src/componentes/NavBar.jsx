@@ -1,10 +1,12 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Carrito from './Carrito';
-export const NavBar = () => {
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Carrito from "./Carrito";
+import { Contador } from "./ItemCounts";
+export const NavBar = ( {chango }) => {
+
   return (
-      <>
+    <>
       <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">LA TIENDA </Navbar.Brand>
@@ -13,15 +15,10 @@ export const NavBar = () => {
             <Nav.Link href="#Invierno">Invierno</Nav.Link>
             <Nav.Link href="#Linea Casual">Linea Casual</Nav.Link>
           </Nav>
-          <Carrito/>
-       </Container>
-      </Navbar> 
-     
-      
-      </> 
-)
-}
- 
+          <Carrito chango={chango} />
+        </Container>
+      </Navbar>
 
-
-
+    </>
+  );
+};

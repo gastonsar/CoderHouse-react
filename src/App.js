@@ -1,13 +1,16 @@
-import Carrito from "./componentes/Carrito";
+import { useState } from "react";
 import { NavBar } from "./componentes/NavBar";
 import { ItemListContainer } from "./componentes/ItemListContainer";
+import { MostrarCard } from "./componentes/CardItem";
 
 export default function App() {
-  
+  const [chango, setChango] = useState(0)
   return (
     <>
-      <NavBar />
-     <ItemListContainer alineacion= 'center' bgColor='blue'  greeting= 'Productos Destacados!' /> 
+      <NavBar chango ={chango} />
+  <MostrarCard setChango={setChango} />
+    
     </>
+
   );
 }

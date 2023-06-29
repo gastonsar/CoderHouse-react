@@ -1,11 +1,13 @@
-import React from "react";
+import { useState } from "react";
 import cart from '../assets/carrito.png'
 
-const Carrito = () => {
+const Carrito = ({chango}) => {
+ 
   return (
     <>
   <img src={cart} alt="chango" /> 
-  <span style={{color:'white'}}> 0 </span>
+  <span style={{color:'white'}}> {chango} </span>
+
     </>
   );
 };
