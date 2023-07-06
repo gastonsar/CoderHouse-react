@@ -1,34 +1,41 @@
 [{
     "producto": "Camiseta titular",
     "precio": "$11000",
-    "descripcion": "Camiseta Givova Titular azul y blanca",
-  "imagen": ""
+    "descripcion": "Camiseta Talleres Titular adulto 2023 GIVOVA",
+  "imagen": "../img/titular-talleres.jpg"
     }, {
     "producto": "Camiseta Suplete ",
     "precio": "$10000",
-    "descripcion": "Camiseta sumplente marca Givova edicion multicolor con sponsors estampados"
-  }, {
+    "descripcion": "Camiseta Talleres Suplente adulto 2023 GIVOVA",
+    "imagen": "../img/suplente-talleres.jpg"
+    }, {
     "producto": "Camiseta Arquero ",
     "precio": "$11000",
-    "descripcion": "Camiseta Arquero titular marca Givova con sponsors estampados"
-  }, {
+    "descripcion": "Camiseta Arquero titular marca Givova con sponsors estampados",
+    "imagen": "../img/arquero-talleres.jpg"
+    }, {
     "producto": "Short Titular ",
     "precio": "$6000",
-    "descripcion": "Short Titular Givova "
-  }, {
+    "descripcion": "Short Titular Givova con sporsors estampados",
+    "imagen": "../img/short-talleres.jpg"
+    }, {
     "producto": "Short Arquero",
     "precio": "$6000",
-    "descripcion": "Scholtis"
-  }, {
-    "producto": "Remera Casual",
+    "descripcion": "Short Arquero titular marca Givova con sporsors estampados ",
+    "imagen": "../img/short-arquero-talleres.jpg"
+    }, {
+    "producto": "Remera Casual mujer",
     "precio": "$4500",
-    "descripcion": "Antrim"
-  }, {
+    "descripcion": "Remera Casual de mujer CAT",
+    "imagen": "../img/remera-casual-femenina-talleres.jpg"
+    }, {
     "producto": "Joggin Givova",
     "precio": "$8500",
-    "descripcion": "Nesterov"
+    "descripcion": "Jogging  titular de entrenamiento marca Givova ",
+    "imagen": "../img/jogging-talleres.jpg"
   }, {
-    "producto": "Vaso Termico",
+    "producto": "Vaso Guira",
     "precio": "$2000",
-    "descripcion": "Schapiro"
+    "descripcion": "Vaso Termico guira Talleres",
+    "imagen": "../img/vaso-guira-talleres.jpg"
   } ]

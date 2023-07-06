@@ -1,20 +1,12 @@
-import { useEffect, useState } from "react";
-import Carrito from "./Carrito";
-import Productos from "../Productos/stock.json";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { ItemListContainer } from "./ItemListContainer";
-
+import { useList } from "./hooks/hooks";
 export function MostrarCard({setChango}) {
-  const [product, setProduct] = useState([]);
 
-  useEffect(() => {
-    const miPromise = new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(Productos);
-      }, 5000);
-    }).then((result) => setProduct(result));
-  }, []);
+
+
+const {products,} = useList()
 
   const aumentar = () => { 
     setChango((estadoPrevio) => estadoPrevio + 1)
@@ -26,15 +18,17 @@ export function MostrarCard({setChango}) {
     <>
     <ItemListContainer color = 'blue' alineacion = 'center' />
       <div className="container" style={{ display: "flex", flexWrap: "wrap" }}>
-        {product.length === 0 ? (
+        {products.length === 0 ? (
           <div> Loading... </div>
         ) : (
-          product.map((el) => (
+          products.map ((el) => (
             <Card
               key={el.producto}
-              style={{ width: "calc(33.33% - 20px)", margin: "10px 5px" }}
+              style={{ width: "300px", margin: "10px 5px" }}
             >
-              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Img variant="top" src={el.imagen} />
+
+
               <Card.Body>
                 <Card.Title>{el.producto}</Card.Title>
                 <Card.Text>{el.descripcion}</Card.Text>
