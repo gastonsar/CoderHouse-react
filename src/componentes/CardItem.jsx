@@ -6,7 +6,7 @@ export function MostrarCard({setChango}) {
 
 
 
-const {products,} = useList()
+const {products} = useList()
 
   const aumentar = () => { 
     setChango((estadoPrevio) => estadoPrevio + 1)
@@ -16,7 +16,7 @@ const {products,} = useList()
 
   return (
     <>
-    <ItemListContainer color = 'blue' alineacion = 'center' />
+    <ItemListContainer alineacion = 'center' />
       <div className="container" style={{ display: "flex", flexWrap: "wrap" }}>
         {products.length === 0 ? (
           <div> Loading... </div>

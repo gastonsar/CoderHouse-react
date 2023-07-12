@@ -3,47 +3,47 @@
     "producto": "Camiseta titular",
     "precio": "$11000",
     "descripcion": "Camiseta Talleres Titular adulto 2023 GIVOVA",
-  "imagen": "../img/titular-talleres.jpg"
+  "imagen": "../img/chomba-talleres.jpg"
     }, {
       "id": "2",
     "producto": "Camiseta Suplete ",
     "precio": "$10000",
     "descripcion": "Camiseta Talleres Suplente adulto 2023 GIVOVA",
-    "imagen": "../img/suplente-talleres.jpg"
+    "imagen": "../img/gorra.jpg"
     }, {
       "id": "3",
     "producto": "Camiseta Arquero ",
     "precio": "$11000",
     "descripcion": "Camiseta Arquero titular marca Givova con sponsors estampados",
-    "imagen": "../img/arquero-talleres.jpg"
+    "imagen": "../img/boxer.jpg"
     }, {
       "id": "4",
     "producto": "Short Titular ",
     "precio": "$6000",
     "descripcion": "Short Titular Givova con sporsors estampados",
-    "imagen": "../img/short-talleres.jpg"
+    "imagen": "../img/billetera.jpg"
     }, {
       "id": "5",
     "producto": "Short Arquero",
     "precio": "$6000",
     "descripcion": "Short Arquero titular marca Givova con sporsors estampados ",
-    "imagen": "../img/short-arquero-talleres.jpg"
+    "imagen": "../img/bolso.jpg"
     }, {
       "id": "6",
     "producto": "Remera Casual mujer",
     "precio": "$4500",
     "descripcion": "Remera Casual de mujer CAT",
-    "imagen": "../img/remera-casual-femenina-talleres.jpg"
+    "imagen": "../img/llavero.jpg"
     }, {
       "id": "7",
     "producto": "Joggin Givova",
     "precio": "$8500",
     "descripcion": "Jogging  titular de entrenamiento marca Givova ",
-    "imagen": "../img/jogging-talleres.jpg"
+    "imagen": "../img/cadena.jpg"
   }, {
     "id": "8",
     "producto": "Vaso Guira",
     "precio": "$2000",
     "descripcion": "Vaso de acero inoxidable termico guira Talleres",
-    "imagen": "../img/vaso-guira-talleres.jpg"
+    "imagen": "../img/pelota.jpg"
   } ]

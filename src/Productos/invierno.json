@@ -1,0 +1,49 @@
+[{
+    "id": "1",
+    "producto": "Camperon givova",
+    "precio": "$22000",
+    "descripcion": "Camperon Talleres oficial Givova",
+  "imagen": "../img/camperon-oficial.jpg"
+    }, {
+      "id": "2",
+    "producto": "Campera de algodon ",
+    "precio": "$15000",
+    "descripcion": "Campera de algodon gris marca Givova",
+    "imagen": "../img/campera-gris.jpg"
+    }, {
+      "id": "3",
+    "producto": "Camperon Alternativo ",
+    "precio": "$20000",
+    "descripcion": "camperon alternativo marca Givova",
+    "imagen": "../img/camperon-alternativo.jpg"
+    }, {
+      "id": "4",
+    "producto": "Campera de entrenamiento",
+    "precio": "$14000",
+    "descripcion": "Campera de entrenamiento marca Givova",
+    "imagen": "../img/campera-entrenamiento.jpg"
+    }, {
+      "id": "5",
+    "producto": "Buzo entrenamiento titular",
+    "precio": "$13000",
+    "descripcion": "Buzo de entrenamiento titular marca Givova",
+    "imagen": "../img/buzo-entrenamiento-titular.jpg"
+    }, {
+      "id": "6",
+    "producto": "Buzo entrenamiento uplente",
+    "precio": "$12500",
+    "descripcion": "Buzo de entrenamiento Suplente marca Givova",
+    "imagen": "../img/buzo-entrenamiento-suplente.jpg"
+    }, {
+      "id": "7",
+    "producto": "Remera termica",
+    "precio": "$8500",
+    "descripcion": "Remera termica marca Givova",
+    "imagen": "../img/remera-termica.jpg"
+  }, {
+    "id": "8",
+    "producto": "Medias titulares",
+    "precio": "$2000",
+    "descripcion": "Medias titulares de algodon marca Givova",
+    "imagen": "../img/medias-titulares.jpg"
+  } ]

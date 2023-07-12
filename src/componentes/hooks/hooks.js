@@ -8,7 +8,7 @@ export const useList = () => {
     new Promise((resolve) => {
         setTimeout(() => {
           resolve(Productos);
-        }, 5000);
+        }, 2000);
       }).then((result) => setProducts(result));
     }, []);
   
