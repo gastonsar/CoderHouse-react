@@ -1,44 +1,36 @@
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import { ItemListContainer } from "./ItemListContainer";
-import { useList } from "./hooks/hooks";
-export function MostrarCard({setChango}) {
+import { useEffect, useState } from "react";
+import { ItemList } from "./ItemList";
+import { Loading } from "./Loading";
+import { getFirestore, getDocs, collection } from "firebase/firestore";
 
+export const MostrarCard = ({ handleSetItems }) => {
+  const [products, setProducts] = useState([]);
 
+  useEffect(() => {
+    const dba = getFirestore();
 
-const {products} = useList()
-
-  const aumentar = () => { 
-    setChango((estadoPrevio) => estadoPrevio + 1)
-  } 
-  
-
+    const refCollectionA = collection(dba, "stock");
+    setTimeout(() => {
+      getDocs(refCollectionA).then((pedido) => {
+        setProducts(
+          pedido.docs.map((el) => {
+            return el.data();
+          })
+        );
+      });
+    }, 2000);
+  }, []);
 
   return (
     <>
-    <ItemListContainer alineacion = 'center' />
+      <h1 style={{ textAlign: "center" }}> Novedades </h1>
       <div className="container" style={{ display: "flex", flexWrap: "wrap" }}>
         {products.length === 0 ? (
-          <div> Loading... </div>
+          <Loading />
         ) : (
-          products.map ((el) => (
-            <Card
-              key={el.producto}
-              style={{ width: "300px", margin: "10px 5px" }}
-            >
-              <Card.Img variant="top" src={el.imagen} />
-
-
-              <Card.Body>
-                <Card.Title>{el.producto}</Card.Title>
-                <Card.Text>{el.descripcion}</Card.Text>
-                <Button onClick={aumentar}variant="primary">Comprar</Button>
-              </Card.Body>
-            </Card>
-          ))
+          <ItemList product={products} handleSetItems={handleSetItems} /> //El componente itemList renderiza mis card y le paso como prop mi funcion que me actualiza el estado del carrito y la funcion que lo aumenta
         )}
       </div>
-   
     </>
   );
-}
+};

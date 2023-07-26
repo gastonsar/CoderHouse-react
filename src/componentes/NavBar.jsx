@@ -2,9 +2,9 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Carrito from "./Carrito";
-import { Link, NavLink , Route, Routes } from "react-router-dom";
+import {Link} from "react-router-dom";
 
-export const NavBar = ( {chango }) => {
+export const NavBar = () => {
 
   return (
     <>
@@ -14,9 +14,9 @@ export const NavBar = ( {chango }) => {
           <Nav className="me-auto">
           <Link className="nav-link" to='/' >Inicio</Link>
             <Link className="nav-link"  to='invierno' >Invierno</Link>
-          <Link className="nav-link" to='lineacasual' >Linea Casual</Link>
+          <Link className="nav-link" to='accesorios' >Accesorios</Link>
           </Nav>
-          <Carrito chango={chango} />
+          <Carrito/>
         </Container>
       </Navbar>
 

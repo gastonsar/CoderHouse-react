@@ -1,49 +1,49 @@
 [{
     "id": "1",
-    "producto": "Camiseta titular",
+    "producto": "Mate azul termico",
     "precio": "$11000",
-    "descripcion": "Camiseta Talleres Titular adulto 2023 GIVOVA",
-  "imagen": "../img/chomba-talleres.jpg"
+    "descripcion": "Mate azul termico ",
+  "imagen": "../img/mate-azul.jpg"
     }, {
       "id": "2",
-    "producto": "Camiseta Suplete ",
-    "precio": "$10000",
-    "descripcion": "Camiseta Talleres Suplente adulto 2023 GIVOVA",
+    "producto": "Gorra azul 1913 ",
+    "precio": "$5000",
+    "descripcion": "Gorra azul 1913 marca Penalty",
     "imagen": "../img/gorra.jpg"
     }, {
       "id": "3",
-    "producto": "Camiseta Arquero ",
-    "precio": "$11000",
-    "descripcion": "Camiseta Arquero titular marca Givova con sponsors estampados",
+    "producto": "Boxer diseño CAT ",
+    "precio": "$2000",
+    "descripcion": "Boxer gris talles del s al xxl",
     "imagen": "../img/boxer.jpg"
     }, {
       "id": "4",
-    "producto": "Short Titular ",
+    "producto": " Billetera de cuerina ",
     "precio": "$6000",
-    "descripcion": "Short Titular Givova con sporsors estampados",
+    "descripcion": "Billetera de cuerina con porta tarjetas",
     "imagen": "../img/billetera.jpg"
     }, {
       "id": "5",
-    "producto": "Short Arquero",
-    "precio": "$6000",
-    "descripcion": "Short Arquero titular marca Givova con sporsors estampados ",
+    "producto": "Bolso de tela azul con escudo",
+    "precio": "$8000",
+    "descripcion": "Bosol de tela azul con escudo 6 bolsillos con costura resistente  ",
     "imagen": "../img/bolso.jpg"
     }, {
       "id": "6",
-    "producto": "Remera Casual mujer",
+    "producto": "Llavero camiseta",
     "precio": "$4500",
-    "descripcion": "Remera Casual de mujer CAT",
+    "descripcion": "Llavero camiseta oficial material goma",
     "imagen": "../img/llavero.jpg"
     }, {
       "id": "7",
-    "producto": "Joggin Givova",
+    "producto": "Cadena acero quirurgico",
     "precio": "$8500",
-    "descripcion": "Jogging  titular de entrenamiento marca Givova ",
+    "descripcion": "Cadenita de acero quirurgico dije con escudo ",
     "imagen": "../img/cadena.jpg"
   }, {
     "id": "8",
-    "producto": "Vaso Guira",
+    "producto": "Pelota marca Penalty",
     "precio": "$2000",
-    "descripcion": "Vaso de acero inoxidable termico guira Talleres",
+    "descripcion": "Pelota marca Penalty escudo talleres tamaño 2",
     "imagen": "../img/pelota.jpg"
   } ]

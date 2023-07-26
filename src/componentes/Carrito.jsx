@@ -1,14 +1,17 @@
+import { useContext } from "react";
+import cart from "../assets/carrito.png";
+import { ThemeContext } from "../context/context";
+import { Link } from "react-router-dom";
+const Carrito = () => {
+  const ejm = useContext(ThemeContext);
 
-import cart from '../assets/carrito.png'
-
-
-const Carrito = ({chango}) => {
- 
   return (
     <>
-  <img src={cart} alt="chango" /> 
-  <span style={{color:'white'}}> {chango} </span>
-
+      <Link to="resumen">
+        <img src={cart} alt="chango" />
+        </Link>
+      <span style={{color:'red'}}>{ejm.length}</span>
+      
     </>
   );
 };
