@@ -3,7 +3,7 @@ import { ItemList } from "./ItemList";
 import { Loading } from "./Loading";
 import { getFirestore, getDocs, collection } from "firebase/firestore";
 
-export const MostrarCard = ({ handleSetItems }) => {
+export const MostrarCard = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ export const MostrarCard = ({ handleSetItems }) => {
         {products.length === 0 ? (
           <Loading />
         ) : (
-          <ItemList product={products} handleSetItems={handleSetItems} /> //El componente itemList renderiza mis card y le paso como prop mi funcion que me actualiza el estado del carrito y la funcion que lo aumenta
+          <ItemList products = {products}/> //El componente itemList renderiza mis card 
         )}
       </div>
     </>

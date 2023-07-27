@@ -1,14 +1,12 @@
-import { Form, Route, Routes } from "react-router-dom";
-import { useState} from "react";
+import { Route, Routes } from "react-router-dom";
+import { useState } from "react";
 import { NavBar } from "./componentes/NavBar";
 import { MostrarCard } from "./componentes/CardItem";
 import { Invierno } from "./componentes/Invierno";
 import { Acc } from "./componentes/Accesorios";
 import "./App.css";
 import { Footer } from "./componentes/Footer";
-import { ThemeContext } from "./context/context";
-import { ResumenProductos } from "./componentes/Resumen";
-
+import { MycontextProvider } from "./context/context";
 
 
 export default function App() {
@@ -16,11 +14,12 @@ export default function App() {
 
   const handleSetItems = (el) => {
     setItems((prev) => [...prev, el]);
-  };
+  }; 
+  
 
   return (
     <>
-      <ThemeContext.Provider value={items}>
+   <MycontextProvider>
         <NavBar />
         <Routes>
           <Route
@@ -48,13 +47,9 @@ export default function App() {
               />
             }
           />
-          <Route path="/resumen" 
-          element={<ResumenProductos productos={items} />}
-       />
-        
-       
+          <Route path="/resumen" />
         </Routes>
-      </ThemeContext.Provider>
+        </MycontextProvider>
       <Footer />
     </>
   );
